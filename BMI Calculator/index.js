@@ -4,11 +4,11 @@ var weight;
 var height;
 var BMI;
 var BMIStatus;
-const weightInp = document.getElementById("weight_inp");
-const heightInp = document.getElementById("height_inp");
-const BMIResult = document.getElementById("bmi_result");
-const BMIRange = document.getElementById("bmi_range");
-const BMIStatusBox = document.getElementById("bmi_status");
+var weightInp;
+var heightInp;
+var BMIResult;
+var BMIRange;
+var BMIStatusBox;
 
 const calculateBMI = () => {
   BMI = (weight / (height * height)).toFixed(1);
@@ -37,8 +37,15 @@ const setValues = () => {
   calculateBMI();
 };
 
-weightInp.addEventListener("input", setValues);
+window.onload = () => {
+  weightInp = document.getElementById("weight_inp");
+  heightInp = document.getElementById("height_inp");
+  BMIResult = document.getElementById("bmi_result");
+  BMIRange = document.getElementById("bmi_range");
+  BMIStatusBox = document.getElementById("bmi_status");
 
-heightInp.addEventListener("input", setValues);
+  weightInp.addEventListener("input", setValues);
+  heightInp.addEventListener("input", setValues);
 
-window.onload = setValues;
+  setValues();
+};
