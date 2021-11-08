@@ -6,6 +6,7 @@ Html-Fun-Projects is an collection of simple and static websites which are creat
 
 - [GlassMorphic Profile Card](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Profile%20Card)
 - [BMI Calculator](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/BMI%20Calculator)
+- [Clock](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Clock)
 
 # Contact
 
