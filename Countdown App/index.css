@@ -1,0 +1,123 @@
+/* Created By Prathamesh Thorat */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#box {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(-70deg, #00ccff, #1fcf0f, #3ba0ff);
+  padding-top: 25px;
+}
+
+#controlBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  width: calc((80vh * 12) / 16);
+  max-width: 350px;
+  background-color: rgba(61, 61, 61, 0.6);
+  padding: 9px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+}
+
+#display {
+  height: 35%;
+  width: 100%;
+  background-color: #3d3d3d;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+#display span {
+  font-size: 21px;
+  color: #b1b1b1;
+  margin: 0 5px;
+}
+
+#keypad {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding-top: 9px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 21px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.active:hover {
+  background-color: #b1b1b1;
+}
+
+.active:active {
+  background-color: #3d3d3d;
+  color: #fff;
+}
+
+.inactive {
+  background-color: #3d3d3d;
+  color: #fff;
+}
+
+#btn0 {
+  grid-row: 4/-1;
+}
+
+#btnStart {
+  grid-column: 2 / -1;
+}
+
+#social {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 0;
+  width: calc((80vh * 12) / 16);
+  max-width: 350px;
+}
+
+.social_logo {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.social_logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #000;
+}
