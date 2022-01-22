@@ -13,8 +13,10 @@ window.onload = () => {
     let min = date.getMinutes() + sec / 60;
     let hour = date.getHours() + min / 60;
 
+    if (hour * 30 > 360) a = hour * 30 - 360
+
     secHand.style.transform = `translateY(-50%) rotate(${sec * 6}deg)`;
     minHand.style.transform = `translateY(-50%) rotate(${min * 6}deg)`;
-    hourHand.style.transform = `translateY(-50%) rotate(${hour * 30}deg)`;
+    hourHand.style.transform = `translateY(-50%) rotate(${a}deg)`;
   }, 1);
 };
