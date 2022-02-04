@@ -4,11 +4,15 @@ Html-Fun-Projects is an collection of simple and static websites which are creat
 
 # Projects
 
-- [GlassMorphic Profile Card](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Profile%20Card)
-- [BMI Calculator](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/BMI%20Calculator)
-- [Clock](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Clock)
-- [Countdown App](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Countdown%20App)
-- [Jokecity](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Jokecity)
+- [GlassMorphic Profile Card](https://prathameshthorat008.github.io/Html-Fun-Projects/Profile%20Card) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Profile%20Card)
+
+- [BMI Calculator](https://prathameshthorat008.github.io/Html-Fun-Projects/BMI%20Calculator) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/BMI%20Calculator)
+
+- [Clock](https://prathameshthorat008.github.io/Html-Fun-Projects/Clock) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Clock)
+
+- [Countdown App](https://prathameshthorat008.github.io/Html-Fun-Projects/Countdown%20App) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Countdown%20App)
+
+- [Jokecity](https://prathameshthorat008.github.io/Html-Fun-Projects/Jokecity) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Jokecity)
 
 # Contact
 
