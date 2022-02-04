@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+:root {
+  --beige: #ddc3a5;
+  --bbrown: #201e20;
+  --tan: #e0a96d;
+}
+
+#container {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bbrown);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 15px;
+}
+
+#controls {
+  background-color: var(--beige);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000;
+}
+
+#jokebox {
+  margin-top: 15px;
+  background-color: var(--beige);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000;
+  width: min(700px, 90%);
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+#refresh {
+  background-color: var(--beige);
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: 3px solid var(--tan);
+  box-shadow: 0 0 10px #000, inset 0 0 3px #000;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+#refresh:hover {
+  background-color: var(--tan);
+  border-color: var(--beige);
+}
+
+#jokebox b {
+  font-weight: bold;
+}
+
+select {
+  margin-right: 15px;
+  padding: 3px 7px;
+}
+
+.none {
+  text-align: center;
+  padding: 30px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2b2b2b;
+}
+
+@media (max-width: 600px) {
+  #controls {
+    width: 90%;
+  }
+  .break {
+    display: block;
+  }
+  select {
+    margin-left: 100%;
+    transform: translate(-100%, -50%);
+    width: 130px;
+  }
+}
+
+#social {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 0;
+  width: 85%;
+  max-width: 450px;
+  margin-top: auto;
+}
+
+.social_logo {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  box-shadow: 0 0 5px #000;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.social_logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #000;
+}

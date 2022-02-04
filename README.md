@@ -8,6 +8,7 @@ Html-Fun-Projects is an collection of simple and static websites which are creat
 - [BMI Calculator](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/BMI%20Calculator)
 - [Clock](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Clock)
 - [Countdown App](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Countdown%20App)
+- [Jokecity](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Jokecity)
 
 # Contact
 
