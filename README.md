@@ -14,6 +14,8 @@ Html-Fun-Projects is an collection of simple and static websites which are creat
 
 - [Jokecity](https://prathameshthorat008.github.io/Html-Fun-Projects/Jokecity) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Jokecity)
 
+- [Painter](https://prathameshthorat008.github.io/Html-Fun-Projects/Jokecity) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Painter)
+
 # Contact
 
 Email : thoratprathamesh08@gmail.com <br />
