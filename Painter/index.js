@@ -40,13 +40,16 @@ const end = (e) => {
 };
 
 const Tstart = (e) => {
+  let pos = getMousePos(e.touches[0]);
   ctx.beginPath();
 
-  ctx.moveTo(e.touches[0].clientX, e.touches[0].clientY);
+  ctx.moveTo(pos.x, pos.y);
 };
 
 const Tmove = (e) => {
-  ctx.lineTo(e.touches[0].clientX, e.touches[0].clientY);
+  let pos = getMousePos(e.touches[0]);
+
+  ctx.lineTo(pos.x, pos.y);
   ctx.stroke();
 };
 
