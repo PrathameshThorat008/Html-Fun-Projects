@@ -16,6 +16,8 @@ Html-Fun-Projects is an collection of simple and static websites which are creat
 
 - [Painter](https://prathameshthorat008.github.io/Html-Fun-Projects/Painter) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Painter)
 
+- [COC Run](https://prathameshthorat008.github.io/Html-Fun-Projects/COC%20Run) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/COC%20Run)
+
 # Contact
 
 Email : thoratprathamesh08@gmail.com <br />
