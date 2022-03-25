@@ -18,6 +18,8 @@ Html-Fun-Projects is an collection of simple and static websites which are creat
 
 - [COC Run](https://prathameshthorat008.github.io/Html-Fun-Projects/COC%20Run) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/COC%20Run)
 
+- [Bracket Validator](https://prathameshthorat008.github.io/Html-Fun-Projects/Bracket%20Validator) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Bracket%20Validator)
+
 # Contact
 
 Email : thoratprathamesh08@gmail.com <br />
