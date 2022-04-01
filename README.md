@@ -20,6 +20,8 @@ Html-Fun-Projects is an collection of simple and static websites which are creat
 
 - [Bracket Validator](https://prathameshthorat008.github.io/Html-Fun-Projects/Bracket%20Validator) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Bracket%20Validator)
 
+- [Base64 Converter](https://prathameshthorat008.github.io/Html-Fun-Projects/Base64%20Converter) | [Github](https://github.com/PrathameshThorat008/Html-Fun-Projects/tree/main/Base64%20Converter)
+
 # Contact
 
 Email : thoratprathamesh08@gmail.com <br />
