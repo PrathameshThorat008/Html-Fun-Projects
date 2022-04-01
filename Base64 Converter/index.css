@@ -18,7 +18,7 @@
 }
 
 #input_box {
-  width: 95%;
+  width: min(95%, 500px);
   background-color: #fff;
   display: flex;
   flex-direction: column;
